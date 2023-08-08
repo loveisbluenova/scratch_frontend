@@ -1,0 +1,119 @@
+.bg{
+    background-color: #855cd6;
+    color: #fff;
+}
+
+
+.joinScratch{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.modal-common-btn{
+    display: block;
+    /* padding: 13px 15px 4px 15px; */
+    /* height: 33px; */
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.home{
+    color: rgb(255 255 248) !important;
+    cursor: pointer;
+}
+
+.tab-btn{
+  margin-right: 11px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0 16px;
+    border-radius: 4px;
+    color: #fff;
+    background: #875dd2;
+    line-height: 1.15;
+    font-size: 14px;
+    height: 36px;
+    word-spacing: 0px;
+    letter-spacing: .0892857143em;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-width: 64px;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.tab-btn:hover {
+    background: rgb(98, 0, 238);
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.image-box{
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.075) #cbced1;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.heading {
+      font-size: 17px;
+      /* letter-spacing: 2px; */
+      text-transform: capitalize;
+      font-weight: 600;
+      cursor: pointer;
+}
+
+.sub-heading{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7839e9;
+  text-transform: capitalize;
+}
+
+.sub-heading-title{
+  /* margin-top: 5px; */
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7839e9d9;
+  text-transform: capitalize;
+}
+
+/* part */
+
+.imagePartBox{
+  border: 3px solid #aaaa;
+  text-align: center;
+  border-radius: 6px;
+  background: #ffff;
+}
+
+
+/* *******************  footer */
+
+.footerBox{
+  color: #fff;
+  background: #875dd2;
+  padding-top: 20px;
+  margin-top: 1rem;
+  padding-bottom: 1px;
+}
+
+.footerBox h6{
+  margin-bottom: 1.3rem;
+}
+
+@media screen {
+
+}
